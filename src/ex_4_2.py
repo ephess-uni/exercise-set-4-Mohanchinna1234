@@ -7,7 +7,7 @@ def logstamp_to_datetime(datestr):
     Your docstring here.  Replace the pass keyword below with your implementation.
     """
     date_format = '%Y-%m-%dT%H:%M:%S'
-    date_object = datetime.strptime(date_str, date_format)
+    date_object = datetime.strptime(datestr, date_format)
     return date_object
 
 
