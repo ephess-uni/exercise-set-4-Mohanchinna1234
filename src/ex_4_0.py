@@ -13,7 +13,7 @@ def get_shutdown_events(logfile):
     """
     Your docstring here.  Replace the pass keyword below with your implementation
     """
-    with open('logfile','r') as file:
+    with open(logfile,'r') as file:
         lst = []
         ans = []
         ans1 = []
